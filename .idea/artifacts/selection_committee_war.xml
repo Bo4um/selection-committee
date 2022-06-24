@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="selection-committee:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>selection-committee</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="selection-committee-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="selection-committee:war exploded" />
+    </root>
+  </artifact>
+</component>
